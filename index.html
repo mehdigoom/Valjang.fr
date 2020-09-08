@@ -32,7 +32,7 @@ function Lucymsg(msg){
     this.ocurence = 0
     document.getElementById('chat').innerHTML = ""
   }
-this.html = this.html +"<article class='msg-container msg-remote' id='msg-0'><div class='msg-box'> <img class='user-img' id='user-0' src='/images/Lucy.jpg' /> <div class='flr'> <div class='messages'> <p class='msg' id='msg-0'>"+msg+"</p></div><span class='timestamp'><span class='username'>Lucy</span>&bull;<span class='posttime'></span></span></div></div></article>"
+this.html = this.html +"<article class='msg-container msg-remote' id='msg-0'><div class='msg-box'> <img class='user-img' id='user-0' src='images/Lucy.jpg' /> <div class='flr'> <div class='messages'> <p class='msg' id='msg-0'>"+msg+"</p></div><span class='timestamp'><span class='username'>Lucy</span>&bull;<span class='posttime'></span></span></div></div></article>"
   document.getElementById('chat').innerHTML = this.html
   this.ocurence = this.ocurence+1
 }
